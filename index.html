@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">  
+    
+    <script src="https://kit.fontawesome.com/9caef2a808.js" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/9caef2a808.js" crossorigin="anonymous"></script>
+    <style>
+    .adlam {
+    font-family: "ADLaM Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+   
+   .sora-font {
+    font-family: "Sora", serif;
+    font-weight:400;
+    font-style: normal;
+}
+    </style>
+   <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#3F9DF8A',
+            back: '#3F9DF8A',
+          },
+        },
+      },
+    },
+  </script>
+</head>
+<body class="sora-font ">
+    <header class="md:ml-40 ml-7 md:mr-40">
+        <nav class="bg-[#FFF9F4]">
+            <div class="">
+                <div class="navbar ">
+                    <div class="navbar-start">
+                      <img src="image/logo-header.png" alt="">
+                      <a class="btn btn-ghost text-xl ">Browse<span class="text-yellow-500">4</span>Pets</a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                      <ul class="menu menu-horizontal px-1">
+                     
+                         <li><a>Find a pet</a></li>
+                        <li><a>Breeds</a></li>
+                        <li><a>Contact us</a></li>
+                      </ul>
+                    </div>
+                    <div class="navbar-end">
+                      <i class="fa-regular fa-bell mr-4"></i>
+                      <i class="fa-solid fa-magnifying-glass mr-4"></i>
+                      <button class="btn btn-outline btn-primary mr-4">login</button>
+                      <a class="btn btn-error bg-yellow-400">Register</a>
+                    </div>
+                  </div>
+            </div>
+        </nav>
+        <!-- title -->
+        <section class="">
+          <!-- top text here  -->
+          <div class="max-w-7xl flex flex-col mx-auto w-11/12 overflow-hidden">
+            <div class=" z-20 space-y-4">
+              <marquee behavior="" direction="up">
+                <h1 class="lg:text-5xl text-3xl text-blac lg:w-2/3">
+                  Pamper Your Pet,<br> Because They Deserve<br> the Bes
+                </h1>
+              </marquee>
+              <p class="lg:w-2/3 lg:text-base text-sm sora">
+                Discover a world of treats, toys, and essentials handpicked for your furry friends. 
+                Shop now and make tails wag with joy!
+              </p>
+              <button class="bg-[#FFDC26] px-6 py-3 rounded-xl sora">
+                Find a pet
+              </button>
+            </div>
+            <!-- img conti  -->
+            <div class="lg:-mt-32 -mt-10">
+              <img src="image/cat-big.png" alt="Cute pet">
+            </div>
+          </div>
+        </section>
+         <!--  -->
+         <section class="mb-10 ">
+          <div>
+            <h1 class="adlam font-bold md:text-5xl mb-7">Browse By Categories</h1>
+          </div>
+        <div class="lg:flex gap-8 grid grid-cols-2 lg:grid-cols-6">
+          <div class="card bg-[#F9DF8A] w-[200px] h-[260px] shadow-xl mb-4">
+            <figure class="px-10 pt-10">
+              <div>
+                <img class="p-8  rounded xl: rounded-full  bg-white" src="image/dog-cartoon.png" alt="">
+              </div>
+               
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Dog</h2>
+              <p>3 items</p>
+            </div>
+          </div>
+          <div class="card bg-[#F9DF8A] w-[200px] h-[260px] shadow-xl mb-4">
+            <figure class="px-10 pt-10">
+              <div>
+                <img class="p-8  rounded xl: rounded-full  bg-white" src="image/fish-cartoon.png" alt="">
+              </div>
+               
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Fish</h2>
+              <p>3 items</p>
+            </div>
+          </div>
+          <div class="card bg-[#F9DF8A] w-[200px] h-[260px] shadow-xl mb-4">
+            <figure class="px-10 pt-10">
+              <div>
+                <img class="p-8  rounded xl: rounded-full  bg-white" src="image/cat-cartoon.png" alt="">
+              </div>
+               
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Cat</h2>
+              <p>3 items</p>
+            </div>
+          </div>
+          <div class="card bg-[#F9DF8A] w-[200px] h-[260px] shadow-xl mb-4">
+            <figure class="px-10 pt-10">
+              <div>
+                <img class="p-8  rounded xl: rounded-full  bg-white" src="image/bird-cartoon.png" alt="">
+              </div>
+               
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Birds</h2>
+              <p>3 items</p>
+            </div>
+          </div>
+          <div class="card bg-[#F9DF8A] w-[200px] h-[260px] shadow-xl mb-4">
+            <figure class="px-10 pt-10">
+              <div>
+                <img class="p-8  rounded xl: rounded-full  bg-white" src="image/mouse-cartoon.png ">
+              </div>
+               
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Small pet</h2>
+              <p>3 items</p>
+            </div>
+          </div>
+          <div class="card bg-[#F9DF8A] w-[200px] h-[260px] shadow-xl mb-4">
+            <figure class="px-10 pt-10">
+              <div>
+                <img class="p-8  rounded xl: rounded-full  bg-white" src="image/rabbit-cartoon.png" alt="">
+              </div>
+               
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Rabit</h2>
+              <p>2 items</p>
+            </div>
+          </div>
+        </div>
+         </section>
+         <!-- 4th -->
+
+         <section class="bg-orange-50 w-[1300px] mb-16">
+          <div class="mb-10 p-6 gap-6">
+            <h1 class="adlam md:text-5xl font-bold">Trending Pet Products</h1>
+          </div>
+          <div class="lg:flex">
+          <div class="card flex bg-[#F9DF8A] w-[420px] h-[400px] mb-4 ">
+            <div class="relative p-10 space-y-3 flex-1">
+              <h2 class="adlam md:text-3xl">T- Shirt For Dogs</h2>
+              <p class="sora-font">Discover a world of treats,toy and essentials handpicked for</p>
+              
+              <button class=" text-2xl btn btn-active bg-white">Shop Now</button>
+            </div>
+            <div class="  md:ml-40 ml-9 mt-25- justify-end  ">
+              <img class=" w-[230px] h-[170px] " src="image/cute-pet-mid.png ">
+            </div>
+          </div>
+          <!--  -->
+          <div class="card card-side bg-white shadow-xl h-[118px]">
+            <figure class="p-8">
+             <img class="bg-orange-50 rounded xl" src="image/fish-cartoon.png" alt="">
+            </figure>
+            <div class="card-body">
+              <i class="fa-solid fa-star text-yellow-500">4.5</i>
+              <h2 class="card-title">pet bed</h2>
+              $28.99
+            </div>
+          </div>
+          </div>
+         </section>
+         <!-- card -->
+          <section>
+            <div class="bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] card flex bg-[#F9DF8A] w-[700px] h-[400px] mb-10 flex">
+              <div class="relative p-10 space-y-3 flex-1">
+                <h4 class="sora md:text-2xl">Under Price</h4>
+                <h1 class="text-4xl font-bold">Pet Grooming Mitt</h1>
+                <h3 class="text-white">(Easy Hair Removal)</h3>
+                <div class="absolute md:ml-40 ml-15 ml-25 justify-around">
+                  <img class="h-[300px] w-[300px]" src="image/cute-dog-mid.png" alt="">
+                </div>
+              </div>
+              <div class="bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] card flex bg-[#F9DF8A] w-[400px] h-[400px] mb-10 flex">
+                <div class="relative p-10 space-y-3 flex-1">
+                  <h4 class="sora md:text-2xl">T-Shirt for Dogs</h4>
+                  <h1 class="text-4xl font-bold">7.22</h1>
+                  <div class="absolute md:ml-40 ml-15 ml-25 justify-around">
+                    <img class="h-[300px] w-[300px]" src="image/cute-pet-mid.png" alt="">
+                  </div>
+                </div>
+          </section>
+    </header>
+</body>
+</html>
